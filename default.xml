@@ -6,7 +6,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-lts" />
 
-  <project path="build" name="kernel/build" remote="aosp" />
+  <project path="build" name="fiqri19102002/android_kernel_build" remote="github" revision="msm-5.10/marble" />
   <project path="AnyKernel3" name="fiqri19102002/AnyKernel3" remote="github" revision="marble" />
   <project path="hikey-modules" name="kernel/hikey-modules" remote="aosp" revision="android12-5.10" />
   <project path="msm-5.10-marble" name="fiqri19102002/android_kernel_xiaomi_marble" remote="github" revision="test" clone-depth="1" />
